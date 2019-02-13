@@ -47,6 +47,9 @@ public class ExtentReportsClass{
 		Assert.assertTrue(true);
 		//To generate the log when the test case is passed
 		logger.log(LogStatus.PASS, "Test Case Passed is passTest");
+			logger.log(LogStatus.INFO, "delete 1");
+					logger.log(LogStatus.INFO, "delete 2");
+							logger.log(LogStatus.INFO, "delete 3");
 	}
 	
 	@Test
